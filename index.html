@@ -14,7 +14,7 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Моделирање пужа!</title>
+    <title>Моделирање пужног пара!</title>
   </head>
   <body>
     <!-- navbar -->
@@ -104,7 +104,22 @@
                 </h2>
                 <div id="collapse_crtez_puznog_zupcanika" class="accordion-collapse collapse" aria-labelledby="crtez_puznog_zupcanika" data-bs-parent="#modeliranje_puznog_para">
                   <div class="accordion-body">
-                    <img src="Pictures/Crtezi/Puzni_zupcanik_crtez.jpg" width="100%" alt="Цртеж пужног зупчаника">
+                    <ul class="nav nav-tabs" id="Puzni_zupcanik_crtezi_Tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="Puzni_zupcanik_crtez_bez_korekcije-tab" data-bs-toggle="tab" data-bs-target="#Puzni_zupcanik_crtez_bez_korekcije" type="button" role="tab" aria-controls="Puzni_zupcanik_crtez_bez_korekcije" aria-selected="true">Без корекције озубљења</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Puzni_zupcanik_crtez_sa_korekcijom-tab" data-bs-toggle="tab" data-bs-target="#Puzni_zupcanik_crtez_sa_korekcijom" type="button" role="tab" aria-controls="Puzni_zupcanik_crtez_sa_korekcijom" aria-selected="false">Са корекцијом озубљења</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="Puzni_zupcanik_crtezi_TabContent">
+                      <div class="tab-pane show active" id="Puzni_zupcanik_crtez_bez_korekcije" role="tabpanel" aria-labelledby="Puzni_zupcanik_crtez_bez_korekcije-tab">
+                          <img src="Pictures/Crtezi/Puzni_zupcanik_crtez.jpg" width="100%" alt="Цртеж пужног зупчаника без корекције озубљења">
+                      </div>
+                      <div class="tab-pane" id="Puzni_zupcanik_crtez_sa_korekcijom" role="tabpanel" aria-labelledby="Puzni_zupcanik_crtez_sa_korekcijom-tab">
+                        <img src="Pictures/Crtezi/Puzni_zupcanik_crtez_sa_korekcijom.jpg" width="100%" alt="Цртеж пужног зупчаника са корекцијом озубљења">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -116,7 +131,22 @@
                 </h2>
                 <div id="collapse_crtez_puznog_para" class="accordion-collapse collapse" aria-labelledby="crtez_puznog_para" data-bs-parent="#modeliranje_puznog_para">
                   <div class="accordion-body">
-                    <img src="Pictures/Crtezi/Puzni_reduktor_sklopni_crtez.jpg" width="100%" alt="Цртеж пужног пара">
+                    <ul class="nav nav-tabs" id="Puzni_par_crtezi_Tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="Puzni_par_crtez_bez_korekcije-tab" data-bs-toggle="tab" data-bs-target="#Puzni_par_crtez_bez_korekcije" type="button" role="tab" aria-controls="Puzni_par_crtez_bez_korekcije" aria-selected="true">Без корекције озубљења</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Puzni_par_crtez_sa_korekcijom-tab" data-bs-toggle="tab" data-bs-target="#Puzni_par_crtez_sa_korekcijom" type="button" role="tab" aria-controls="Puzni_par_crtez_sa_korekcijom" aria-selected="false">Са корекцијом озубљења</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="Puzni_par_crtezi_TabContent">
+                      <div class="tab-pane show active" id="Puzni_par_crtez_bez_korekcije" role="tabpanel" aria-labelledby="Puzni_par_crtez_bez_korekcije-tab">
+                        <img src="Pictures/Crtezi/Puzni_reduktor_sklopni_crtez.jpg" width="100%" alt="Цртеж пужног пара без корекције озубљења">
+                      </div>
+                      <div class="tab-pane" id="Puzni_par_crtez_sa_korekcijom" role="tabpanel" aria-labelledby="Puzni_par_crtez_sa_korekcijom-tab">
+                        <img src="Pictures/Crtezi/Puzni_reduktor_sklopni_crtez_sa_korekcijom_ozubljenja.jpg" width="100%" alt="Цртеж пужног пара са корекцијом озубљења">
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -180,6 +210,12 @@
                         <button class="nav-link active" id="Puzni_par_sklop_modeliranje-tab" data-bs-toggle="tab" data-bs-target="#Puzni_par_sklop_modeliranje" type="button" role="tab" aria-controls="Puzni_par_sklop_modeliranje" aria-selected="true">Моделирање редуктора</button>
                       </li>
                       <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Puzni_par_korek_ozublj_pz_promene_na_crtez_podes_animacije-tab" data-bs-toggle="tab" data-bs-target="#Puzni_par_korek_ozublj_pz_promene_na_crtez_podes_animacije" type="button" role="tab" aria-controls="Puzni_par_korek_ozublj_pz_promene_na_crtez_podes_animacije" aria-selected="false">Корекција озубљења пужног зупчаника...</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Puzni_par_animacija-tab" data-bs-toggle="tab" data-bs-target="#Puzni_par_animacija" type="button" role="tab" aria-controls="Puzni_par_animacija" aria-selected="false">Анимација редуктора</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
                         <button class="nav-link" id="Cilindricni_zupcasti_par_mail-tab" data-bs-toggle="tab" data-bs-target="#Cilindricni_zupcasti_par_mail" type="button" role="tab" aria-controls="Cilindricni_zupcasti_par_mail" aria-selected="false">"Zip" склопа</button>
                       </li>
                     </ul>
@@ -187,6 +223,16 @@
                       <div class="tab-pane show active" id="Puzni_par_sklop_modeliranje" role="tabpanel" aria-labelledby="Puzni_par_sklop_modeliranje-tab">
                         <div class="card ratio ratio-16x9">
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/7xURSMMqVfQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Puzni_par_korek_ozublj_pz_promene_na_crtez_podes_animacije" role="tabpanel" aria-labelledby="Puzni_par_korek_ozublj_pz_promene_na_crtez_podes_animacije-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/x-uc2lkl2Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Puzni_par_animacija" role="tabpanel" aria-labelledby="Puzni_par_animacija-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/tRBTJswJO3M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                       </div>
                       <div class="tab-pane" id="Cilindricni_zupcasti_par_mail" role="tabpanel" aria-labelledby="Cilindricni_zupcasti_par_mail-tab">
