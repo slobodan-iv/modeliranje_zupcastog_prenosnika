@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="sr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Merriweather|Tangerine|Caveat" rel="stylesheet">
+    <!-- Bootstrap CSS
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>FEM анализа!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="Pictures/logo3.png" width="90" height="60" class="d-inline-block align-top rounded" alt="M3Design"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Пужни пар</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">"FEM" анализа</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                Повезани Web site-ови
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/standardni_me/">Моделирање станд. маш. ел.</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/modeliranje_prenosnika/">Моделирање преносника</a>
+                </li>
+                <li>
+                  <a class="dropdown-item disabled" href="#">Моделирање слож. склопова и тех. док.</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/modeliranje_i_simulacija_p_r_2022/">Моделирање и сим. пом. рач. шк. 2022/23. год.</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/modeliranje_i_simulacija_p_r/">Моделирање и симулација пом. рач. шк. 2021/22. год.</a>
+                </li>
+                </li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/modeliranje_izborni/">Моделирање и симулација пом. рач. - изб. пр.</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="https://slobodan-iv.github.io/konstruisanje/">Конструисање</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!-- navbar -->
+    <!-- container -->
+    <div class="container">
+      <!-- Content here -->
+      <div>
+        <h1>"FEM" анализа цилиндричних зупчаника шк. 2022/23. год.</h1>
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-12 col-md-11 col-lg-10">
+            <div class="accordion" id="FEM_analiza_cilindricnih_zupcanika">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="Kratki_podsetnik">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_Kratki_podsetnik" aria-expanded="true" aria-controls="collapse_Kratki_podsetnik">
+                    Кратки подсетник:
+                  </button>
+                </h2>
+                <div id="collapse_Kratki_podsetnik" class="accordion-collapse collapse show" aria-labelledby="Kratki_podsetnik" data-bs-parent="#FEM_analiza_cilindricnih_zupcanika">
+                  <div class="accordion-body">
+                    <div id="carousel_FEM_analiza_cilindricni_zupcanika" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="17" aria-label="Slide 18"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="18" aria-label="Slide 19"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="19" aria-label="Slide 20"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="20" aria-label="Slide 21"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="21" aria-label="Slide 22"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="22" aria-label="Slide 23"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="23" aria-label="Slide 24"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="24" aria-label="Slide 25"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="25" aria-label="Slide 26"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="26" aria-label="Slide 27"></button>
+                        <button type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide-to="27" aria-label="Slide 28"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="Pictures/Carousel/FEM_1.jpg" class="d-block w-100" alt="Погонски зупчаник Default configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_2.jpg" class="d-block w-100" alt="Погонски зупчаник FEM configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_3.jpg" class="d-block w-100" alt="Гоњени зупчаник Default configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_4.jpg" class="d-block w-100" alt="Гоњени зупчаник FEM configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_5.jpg" class="d-block w-100" alt="Assembly Default configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_6.jpg" class="d-block w-100" alt="Assembly FEM configuration">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_7.jpg" class="d-block w-100" alt="N0.7 rad">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_8.jpg" class="d-block w-100" alt="Intereference Detection">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_9.jpg" class="d-block w-100" alt="File Properties">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_10.jpg" class="d-block w-100" alt="Add ins: Simulation">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_11.jpg" class="d-block w-100" alt="Local Interaction">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_12.jpg" class="d-block w-100" alt="Contact loacl interaction">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_13.jpg" class="d-block w-100" alt="Fixed Hinge">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_14.jpg" class="d-block w-100" alt="Reference geometry 0.7 rad">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_15.jpg" class="d-block w-100" alt="Reference geometry 0 mm">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_16.jpg" class="d-block w-100" alt="Default Mesh">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_17.jpg" class="d-block w-100" alt="Static Properties: Direct Sparse">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_18.jpg" class="d-block w-100" alt="Copy study">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_19.jpg" class="d-block w-100" alt="Study Properties">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_20.jpg" class="d-block w-100" alt="Advanced Options">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_21.jpg" class="d-block w-100" alt="Stress1 von Mises">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_22.jpg" class="d-block w-100" alt="Plasticity von Mises material">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_23.jpg" class="d-block w-100" alt="Stress1 von Mises">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_24.jpg" class="d-block w-100" alt="Material Properties">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_25.jpg" class="d-block w-100" alt="Stress - Strain Curve">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_26.jpg" class="d-block w-100" alt="Stress1 von Mises">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_27.jpg" class="d-block w-100" alt="Compare Results">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="Pictures/Carousel/FEM_28.jpg" class="d-block w-100" alt="Report">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carousel_FEM_analiza_cilindricni_zupcanika" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="FEM_analiza">
+                  <button class="btn accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_FEM_analiza" aria-expanded="true" aria-controls="collapse_FEM_analiza">
+                    "FEM" анализе цилиндричних зупчаника са завојним зупцима:
+                  </button>
+                </h2>
+                <div id="collapse_FEM_analiza" class="accordion-collapse collapse" aria-labelledby="FEM_analiza" data-bs-parent="#FEM_analiza_cilindricnih_zupcanika">
+                  <div class="accordion-body">
+                    <ul class="nav nav-tabs" id="FEM_analize_Tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="Priprema_modela_i_sklopa-tab" data-bs-toggle="tab" data-bs-target="#Priprema_modela_i_sklopa" type="button" role="tab" aria-controls="Priprema_modela_i_sklopa" aria-selected="true">Припрема склопа</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Static_contact_linearna_analiza-tab" data-bs-toggle="tab" data-bs-target="#Static_contact_linearna_analiza" type="button" role="tab" aria-controls="Static_contact_linearna_analiza" aria-selected="false">"Static contact"</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Nonlinear_contact-tab" data-bs-toggle="tab" data-bs-target="#Nonlinear_contact" type="button" role="tab" aria-controls="Nonlinear_contact" aria-selected="false">"Nonlinear contact"</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Plasticicty_von_Mises-tab" data-bs-toggle="tab" data-bs-target="#Plasticicty_von_Mises" type="button" role="tab" aria-controls="Plasticicty_von_Mises" aria-selected="false">"Plasticity von Mises"</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Stress_strain_curve-tab" data-bs-toggle="tab" data-bs-target="#Stress_strain_curve" type="button" role="tab" aria-controls="Stress_strain_curve" aria-selected="false">"Stress-Strain curve"</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="Report-tab" data-bs-toggle="tab" data-bs-target="#Report" type="button" role="tab" aria-controls="Report" aria-selected="false">"Report"</button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="FEM_analize_TabContent">
+                      <div class="tab-pane show active" id="Priprema_modela_i_sklopa" role="tabpanel" aria-labelledby="Priprema_modela_i_sklopa-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/rfU7O-LRtZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Static_contact_linearna_analiza" role="tabpanel" aria-labelledby="Static_contact_linearna_analiza-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/T2tJ1c3eJ8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Nonlinear_contact" role="tabpanel" aria-labelledby="Nonlinear_contact-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/B1MEJuuFtzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Plasticicty_von_Mises" role="tabpanel" aria-labelledby="Plasticicty_von_Mises-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/9M3W0b0dBek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Stress_strain_curve" role="tabpanel" aria-labelledby="Stress_strain_curve-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/2WcKPxZ5nD0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="Report" role="tabpanel" aria-labelledby="Report-tab">
+                        <div class="card ratio ratio-16x9">
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/n6tqhVIfV7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <nav class="card-header" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">&copy; Slobodan Ivković</li>
+                  <li class="breadcrumb-item"><a href="https://www.linkedin.com/in/slobodan-ivkovic-a08326ba"><img src="Pictures/Icons/linkedin.png" alt="linkedin logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://twitter.com/slobodan_iv"><img src="Pictures/Icons/twitter.png" alt="twitter logo"></a></li>
+                  <li class="breadcrumb-item"><a href="https://www.youtube.com/user/Mickijedini"><img src="Pictures/Icons/youtube.png" alt="youtube logo"></a></li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- container -->
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> -->
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>-->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
